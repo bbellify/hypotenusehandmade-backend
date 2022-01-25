@@ -6,7 +6,7 @@ A prototype for a production server for a self-hosted small business web store. 
 
 ### MVP
 - [x] get knex, dependencies wired with mariadb
-- [ ] get remote machine (my laptop) talking with db
+- [ ] get remote machine (my laptop) talking with db if running dev server (this repo)
 - [ ] get BTCPayServer wired
 - [ ] set up products database
 
