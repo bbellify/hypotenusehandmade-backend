@@ -8,7 +8,7 @@
   - HOST - localhost if on same machine/IP of server
   - PORT (PORT=3306 for mariadb default) 
   - MARIADB_USER - this is the user created during mariadb set up
-  - MARIADB_PASSWORD - password set during mariadb set up
+  - MARIADB_PASSWORD - password set during mariadb set up (this is actually phpmyadmin password.. why?)
   - MARIADB_DB_DEV - name of dev db
   - MARIADB_DB_TESTING - name of testing db
   - JWT_SECRET (eg JWT_SECRET=secret)
