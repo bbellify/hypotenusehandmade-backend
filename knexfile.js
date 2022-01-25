@@ -12,7 +12,7 @@ module.exports = {
     ...sharedConfig,
     connection: {
       host: process.env.HOST,
-      port: process.env.PORT,
+      port: process.env.HOST_PORT,
       user: process.env.MARIADB_USER,
       password: process.env.MARIADB_PASSWORD,
       database: process.env.MARIADB_DB_DEV
