@@ -1,6 +1,17 @@
 # hypotenuse handmade backend
 
+## Motivation
+
+
+## MVP
+- [x] get knex, dependencies wired with mariadb
+- [ ] get remote machine (my laptop) talking with db
+- [ ] get BTCPayServer wired
+- [ ] set up products database
+
 ## Set Up
+
+### This repo
 
 - Create new .env, add the following:
   - PORT (eg PORT=9000)
@@ -19,6 +30,9 @@
   - npx knex seed:make 00-seed-name
   - see package.json for more custom scripts
 
+### Additional set up on server:
+- set up of MariaDB
+- set up of phpMyAdmin
 
 </br>
 
