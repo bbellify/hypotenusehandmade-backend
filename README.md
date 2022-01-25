@@ -1,13 +1,18 @@
 # hypotenuse handmade backend
 
 ## Motivation
+A prototype for a production server for a self-hosted small business web store. Prototype implementation includes MariaDB and phpMyAdmin running on a raspberry pi. Production is assumed to run on something other than ARM cpu, perhaps with MySQL instead of MariaDB.
 
 
-## MVP
+### MVP
 - [x] get knex, dependencies wired with mariadb
 - [ ] get remote machine (my laptop) talking with db
 - [ ] get BTCPayServer wired
 - [ ] set up products database
+
+### After MVP
+- [ ] dockerize the whole set up
+- [ ] investigate deployment on not-rpi
 
 ## Set Up
 
