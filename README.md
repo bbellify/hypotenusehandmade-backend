@@ -11,6 +11,7 @@ A prototype for a production server for a self-hosted small business web store. 
 - [ ] set up products database
 
 ### After MVP
+- [ ] investigate redis server
 - [ ] dockerize the whole set up
 - [ ] investigate deployment on not-rpi
 
