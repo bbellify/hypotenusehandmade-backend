@@ -21,7 +21,7 @@ A prototype for a production server for a self-hosted small business web store. 
 
 - Create new .env, add the following:
   - PORT (eg PORT=9222)
-  - NODE_ENV=development - this is for db-config file (investigate how this all pipes together)
+  - NODE_ENV=development, change for production
   - HOST - localhost if on same machine/IP of server
   - PORT (PORT=3306 for mariadb default) 
   - MARIADB_USER - this is the user created during mariadb set up
