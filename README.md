@@ -7,8 +7,8 @@ First iteration toward a production server for a self-hosted small business web 
 ### MVP
 - [x] get knex, dependencies wired with mariadb
 - [ ] get any machine on local network (my laptop) talking with db if running dev server (this repo)
-- [ ] get BTCPayServer wired
 - [ ] set up products tables
+- [ ] get BTCPayServer wired
 
 ### After MVP
 - [ ] investigate redis server for caching
@@ -22,7 +22,7 @@ First iteration toward a production server for a self-hosted small business web 
 - Create new .env, add the following:
   - PORT (eg PORT=9222)
   - NODE_ENV=development, change for production
-  - HOST - localhost if on same machine/IP of server
+  - HOST - localhost if on same machine, IP/hostname of server if not
   - PORT (PORT=3306 for mariadb default) 
   - MARIADB_USER - this is the user created during mariadb set up
   - MARIADB_PASSWORD - password set during mariadb set up (this is actually phpmyadmin password.. why?)
