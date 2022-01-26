@@ -8,10 +8,10 @@ First iteration toward a production server for a self-hosted small business web 
 - [x] get knex, dependencies wired with mariadb
 - [ ] get any machine on local network (my laptop) talking with db if running dev server (this repo)
 - [ ] get BTCPayServer wired
-- [ ] set up products database
+- [ ] set up products tables
 
 ### After MVP
-- [ ] investigate redis server
+- [ ] investigate redis server for caching
 - [ ] dockerize the whole set up
 - [ ] investigate deployment on not-rpi
 
