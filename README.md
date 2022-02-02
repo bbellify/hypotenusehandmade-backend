@@ -22,8 +22,8 @@ First iteration toward a production server for a self-hosted small business web 
 - Create new .env, add the following:
   - PORT (eg PORT=9222)
   - NODE_ENV=development, change for production
-  - HOST - localhost if on same machine, IP/hostname of server if not
-  - PORT (PORT=3306 for mariadb default) 
+  - HOST - host for db, localhost if on same machine, IP/hostname of server if not
+  - HOST_PORT - port for db (3306 for mariadb default)
   - MARIADB_USER - this is the user created during mariadb set up
   - MARIADB_PASSWORD - password set during mariadb set up (this is actually phpmyadmin password.. why?)
   - MARIADB_DB_DEV - name of dev db
