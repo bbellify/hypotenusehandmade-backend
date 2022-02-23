@@ -15,12 +15,12 @@ module.exports = {
       port: process.env.HOST_PORT,
       user: process.env.MARIADB_USER,
       password: process.env.MARIADB_PASSWORD,
-      database: process.env.MARIADB_DB_DEV
+      database: process.env.MARIADB_DB_DEV,
     }
   },
   testing: {
     ...sharedConfig,
-    connection: process.env.TESTING_DATABASE_URL,
+    connection: process.env.MARIADB_DB_TESTING,
   },
   production: {
     ...sharedConfig,
