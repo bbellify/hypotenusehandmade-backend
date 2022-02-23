@@ -24,7 +24,7 @@ First iteration toward a production server for a self-hosted small business web 
   - NODE_ENV=development, change for production
   - HOST - host for db, localhost if on same machine, IP/hostname of server if not
   - HOST_PORT - port for db (3306 for mariadb default)
-  - MARIADB_USER - this is the user created during mariadb set up
+  - MARIADB_USER - user created during mariadb set up, can be global user or user just for a particular database. nb the host name on the user
   - MARIADB_PASSWORD - password set during mariadb set up (this is actually phpmyadmin password.. why?)
   - MARIADB_DB_DEV - name of dev db
   - MARIADB_DB_TESTING - name of testing db
@@ -39,6 +39,7 @@ First iteration toward a production server for a self-hosted small business web 
 ### Additional set up on server:
 - set up of MariaDB
 - set up of phpMyAdmin
+- to enable developing on local device, will need a user set up with host name set up for device (or all host names). this can be done in phpmyadmin
 
 </br>
 
